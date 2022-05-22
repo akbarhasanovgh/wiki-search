@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #000;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+.logo{
+    width: 250px;
+    margin: 20px 0;
+}
+.searchForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+}
+.searchInput{
+    width: 350px;
+    height: 35px;
+    padding: 20px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.searchButton{
+    background-color: cornsilk;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card{
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 660px;
+
+}
+.cardTitle a{
+    text-decoration: none;
+    color: #000;
+    font-family: system-ui, sans-serif;
+    font-size: 25px;
+}
+.cardLink{
+    font-size: 20px;
+}
+.card span{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
